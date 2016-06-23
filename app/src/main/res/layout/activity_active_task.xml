@@ -4,11 +4,35 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBar" >
+        <Button
+            android:id="@+id/activetaskview_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="返回"/>
+        <TextView
+            android:id="@+id/activetaskview_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="title"/>
+        <Button
+            android:id="@+id/activetaskview_finish_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="完成"/>
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:gravity="center"
         android:layout_weight="1"
         android:text="@string/activetaskview_time"/>
 
@@ -16,15 +40,18 @@
         android:id="@+id/activetaskview_chronometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:layout_gravity="center" />
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorBar"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/activetaskview_times"
         android:layout_weight="1"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:gravity="center"/>
 
     <EditText
         android:id="@+id/activetaskview_times_et"
@@ -32,6 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:layout_gravity="center"
+        android:gravity="center"
         android:text="0"/>
 
     <Button
@@ -39,6 +67,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:gravity="center"
         android:layout_weight="1"
         android:text="@string/activetaskview_start"/>
 

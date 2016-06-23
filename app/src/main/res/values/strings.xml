@@ -28,7 +28,7 @@
 
     <!-- Active Task Activity -->
     <string name="activetaskview_time">计时: </string>
-    <string name="activetaskview_times">计数: </string>
+    <string name="activetaskview_times">计数(需要手动输入): </string>
     <string name="activetaskview_start">开始</string>
     <string name="activetaskview_end">结束</string>
 
